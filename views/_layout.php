@@ -29,10 +29,19 @@
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
         </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/login">login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/register">register</a>
+            </li>
+        </ul>
     </div>
 </nav>
+<div class="container">
 <?php echo $content ?>
-
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

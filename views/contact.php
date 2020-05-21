@@ -1,3 +1,5 @@
+<?php
+?>
 <h1>Contact Page</h1>
 
 <form method="post" action="/contact">
@@ -8,3 +10,4 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
